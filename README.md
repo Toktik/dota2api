@@ -84,6 +84,8 @@ dota.getByAccountID(1234, function (err, res) {
 });
 ```
 
+### Leagues Details
+
 Get information about DotaTV-supported leagues
 ```javascript
 var Dota2Api = require('dota2api');
