@@ -6,11 +6,6 @@ Dota2 api wrapper written in node.js
 
 ## Installation 
 
-Install this version via git:
-```bash
-npm install git://github.com/jiin/dota2api
-```
-
 Install this version via npm:
 ```bash
 npm install dota2api
@@ -86,6 +81,23 @@ Get matches by steam account id:
 ```javascript
 dota.getByAccountID(1234, function (err, res) {
     // ...
+});
+```
+
+Get information about DotaTV-supported leagues
+```javascript
+var Dota2Api = require('dota2api');
+var dota     = new Dota2Api('<key>');
+dota.GetLeagues( function ( err , data ) 
+{
+	if( !err)
+	{
+		for( var index in data.leagues )
+		{
+			console.log( data.leagues[ index].leagueid  + "->" + data.leagues[ index].name );
+		}
+	}
+	
 });
 ```
 
