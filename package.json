@@ -1,12 +1,12 @@
 {
   "name": "dota2api",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "wrapper for dota2 api in node.js",
   "main": "index.js",
   "scripts": {
     "test": "mocha -c ./test/index.js"
   },
-  "repository": "https://github.com/jiin/dota2api",
+  "repository": "https://github.com/a70ma/dota2api",
   "keywords": [
     "dota2",
     "dota",
@@ -19,6 +19,6 @@
   "devDependancies": {
     "mocha": "*"
   },
-  "author": "jiin",
+  "author": "a70mma",
   "license": "BSD"
 }

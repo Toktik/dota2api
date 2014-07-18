@@ -3,6 +3,7 @@
 ## About
 
 Dota2 api wrapper written in node.js
+Github <https://github.com/a70ma/dota2api>
 
 ## Installation 
 
