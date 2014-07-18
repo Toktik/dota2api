@@ -11,6 +11,11 @@ Install this version via git:
 npm install git://github.com/jiin/dota2api
 ```
 
+Install this version via npm:
+```bash
+npm install dota2api
+```
+
 And use in your node source:
 ```javascript
 var Dota2Api = require('dota2api');
