@@ -1,6 +1,6 @@
 {
   "name": "dota2api",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "wrapper for dota2 api in node.js",
   "main": "index.js",
   "scripts": {
@@ -19,6 +19,6 @@
   "devDependancies": {
     "mocha": "*"
   },
-  "author": "a70mma",
+  "author": "a70ma",
   "license": "BSD"
 }
